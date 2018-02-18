@@ -1,0 +1,545 @@
+/* Fonts */
+
+@font-face{
+    font-family: 'Anke';
+    src: url('../fonts/Anke.otf'),
+         url('../fonts/Anke.ttf');
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Anke';
+}
+
+/* Start Home */
+
+.most-reading,
+.personal-content,
+.popular-links,
+.message{
+    text-align: center;
+}
+
+.lap-top img,
+.links-images img,
+.most-images img,
+.comment-image img,
+.logo-cv img,
+.img-responsive,
+.personal-img img,
+.envelope img,
+.tele img,
+.location img,
+.global img{
+    width: 100%;
+}
+
+.big-para{
+    font-size: 1.3em;
+    width: 80%;
+    margin: 1% auto;
+}
+
+.popular-links{
+    margin: 4% auto 0;
+    padding: 3% 0;
+    background: #EBEBED;
+}
+
+.popular-links h2{
+    margin: 1% auto 5%;
+}
+
+.popular-links p{
+    width: 60%;
+    margin: 0 auto;
+    color: #908f8f;
+}
+
+.lap-top{
+    width: 7%;
+    margin: 2% auto 0;
+}
+
+.links-images {
+    width: 28%;
+    margin: 5% auto;
+}
+
+.most-reading{
+    background: url('../images/bg.png') no-repeat;
+    background-size: cover;
+    height: 40em;
+    width: 100.4%;
+    margin: -4% auto;
+}
+
+.most-reading h2{
+    margin: 7% auto 10%;
+}
+
+.most-images{
+    width: 85%;
+}
+
+.message{
+    margin: 8%;
+}
+
+.space{
+    margin-bottom: 5%;
+}
+
+.comment-image{
+    width:100%;
+}
+
+.comment-image img{
+    border-radius: 50%;
+}
+
+.form-control{
+    border-radius: 0;
+    margin-bottom: 2%;
+    background: #dedede;
+    border: 0;
+}
+
+textarea.comment-text{
+    height: 12em;
+}
+
+.small-para{
+    font-size: 1em;
+    color:  #908f8f;
+}
+
+/* Start Cv */
+
+.cv-header{
+    background: #fff;
+    padding: 1.1% 15% 0.1%;
+    margin: 3% auto;
+	border-top: 56px solid #CBCCCE;
+	border-left: 40px solid transparent;
+    border-bottom-left-radius: 31%;
+    border-top-left-radius: 10px;
+}
+
+.shape-wide{
+    height: 4em;
+    background: #CBCCCE;
+    margin-top: 3%;
+    border-radius: 15%;
+    -webkit-transform: skew(36deg);
+    -moz-transform: skew(36deg);
+    -o-transform: skew(36deg);
+    transform: skew(36deg);
+}
+
+.shape-thin{
+    height: 4em;
+    background: #57595B;
+    margin-top: 3%;
+    width: 6%;
+    margin-right: 1%;
+    border-radius: 15%;
+    -webkit-transform: skew(36deg);
+    -moz-transform: skew(36deg);
+    -o-transform: skew(36deg);
+    transform: skew(36deg);
+}
+
+.fix-cv{
+    margin-top: -11%;
+    margin-right: 7%;
+}
+
+.logo-cv{
+    width: 7%;
+    float: right;
+    margin-top: -2.5%;
+}
+
+.cv-header h4{
+    text-align: right;
+    margin-right: 8%;
+    color: #828386;
+    letter-spacing: 0.1em;
+}
+
+.personal-name{
+    color: #757575;
+}
+
+.personal-name span{
+    color: #2c6c96;
+}
+
+.personal-data{
+    margin-bottom: 2%;
+}
+
+.personal-para{
+    font-size: 1.12em;
+    color: #7d7c7c;
+}
+
+.personal-info,
+.work-exp{
+    background: #fff;
+    margin: 3% auto 0;
+	border-top: 56px solid #ecebf0;
+	border-right: 40px solid transparent;
+    border-bottom-right-radius: 11%;
+    border-top-right-radius: 12px;
+    margin-left: -1.3%;
+    z-index: -1;
+    padding-left: 3%;
+}
+
+.personal-info h4,
+.work-exp h4{
+    margin-top: -7%;
+    color: #78787c;
+    letter-spacing: 0.05em;
+}
+
+.small-personal{
+    height: 4em;
+    background: #ecebf0;
+    width: 6%;
+    margin-top: 3%;
+    border-radius: 15%;
+    -webkit-transform: skew(-36deg);
+    -moz-transform: skew(-36deg);
+    -o-transform: skew(-36deg);
+    transform: skew(-36deg);
+}
+
+.personal-subheader,
+.personal-subsubheader{
+    color: #3f99a9;
+    font-size: 1.1em;
+    letter-spacing: 0.05em;
+}
+
+.personal-paragraph{
+    font-size: 1em;
+    color: #8e8b8b;
+}
+
+.margin-para{
+    margin-top: 3%;
+}
+
+.personal-subsubheader{
+    margin-top: 0;
+    color:  #3297a9;
+    font-size: 1em;
+}
+
+.year{
+    color: #3297a9;
+    font-weight: bolder;
+}
+
+.exp-img{
+    margin: 3% auto;
+}
+
+.carousel-control{
+    text-shadow: none;
+    background: none;
+    height: 100px;
+    width: auto;
+    color: #7b7878;
+    opacity: 1;
+    margin-top: 22%;
+    
+}
+
+.carousel-control.right{
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(255, 255, 255, 0.5) 100%);
+}
+
+.carousel-control.left{
+    background-image: linear-gradient(to right,rgba(255, 255, 255, 0.5) 0,rgba(0,0,0,.0001) 100%);
+}
+
+.carousel-control:hover {
+    color: inherit;
+}
+
+/* Start Aside */
+
+.personal-img{
+    width: auto;
+    box-shadow: 5px 0px 5px #a8a7ac;
+}
+
+.contact-header,
+.contact-skills{
+    color: #78787c;
+    letter-spacing: 0.05em;
+    margin: 32% auto 10%;
+    text-align: center;
+}
+
+.continfo-margin{
+    margin-bottom: 5%;
+}
+
+.rest-aside{
+    background: #ecebf0;
+    border-right: 5px solid #ecebf0;
+    box-shadow: 5px 0px 5px #a8a7ac;
+}
+
+.icons-border{
+    border-top: 35px solid #c9cdd0;
+	border-right: 40px solid transparent;
+    background: #ecebf0;
+    border-bottom-right-radius: 11%;
+    border-top-right-radius: 8px;
+}
+
+.envelope{
+    width: 2em;
+    margin-top: -2em;
+    margin-left: 40%;
+}
+
+.tele{
+    width: 1.6em;
+    margin-top: -1.9em;
+    margin-left: 40%;
+}
+
+.location{
+    width: 1.3em;
+    margin-top: -2em;
+    margin-left: 45%;
+}
+
+.global{
+    width: 1.7em;
+    margin-top: -1.9em;
+    margin-left: 40%;
+}
+
+.contact-site{
+    text-decoration: none;
+    color: #7d7c7c;
+}
+
+.contact-para{
+    margin-top: 5%;
+    font-size: 0.9em;
+}
+
+.skill-info{
+    margin-top: -4%;
+    margin-left: 7%;
+}
+
+.progress{
+    height: 15px;
+    background: #fff;
+}
+
+.progress-move{
+    width: 0;
+	height: 0;
+	border-top: 100px solid #c9cdd0;
+    border-bottom: 100px solid transparent;
+	border-right: 130px solid transparent;
+}
+
+.first{
+    border-right: 130px solid transparent;
+}
+
+.second{
+    border-right: 100px solid transparent;
+}
+
+.third{
+    border-right: 10px solid transparent;
+}
+
+.fourth{
+    border-right: 50px solid transparent;
+}
+
+.fifth{
+    border-right: 80px solid transparent;
+}
+
+.sixth{
+    border-right: 120px solid transparent;
+}
+
+.seventh{
+    border-right: 70px solid transparent;
+}
+
+.eight{
+    border-right: 130px solid transparent;
+}
+
+.nineth{
+    border-right: 35px solid transparent;
+}
+
+.progress-move{
+    background: #c9cdd0;
+}
+
+.contact-hobbies{
+    color: #3c3c42;
+    margin-bottom: 20%;
+}
+
+/******** Start Media Query ***********/
+
+@media screen and (max-width: 1315px){
+    .skill-info {
+        margin-top: -4%;
+        margin-left: 7%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .envelope {
+        width: 1.5em;
+    }
+    
+    .tele {
+        width: 1.3em;
+    }
+    
+    .location {
+        width: 1.2em;
+    }
+    
+    .global {
+        width: 1.5em;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .fix-cv {
+        margin-top: -22%;
+    }
+    .personal-para{
+        font-size: 1.1em;
+    }
+    .personal-info, 
+    .work-exp{
+        margin-left: -1.8%;
+        padding-left: 4%;
+    }
+    .carousel-control{
+        margin-top: -11%;
+    }
+    .personal-info h4, .work-exp h4{
+        margin-top: -10%;
+    }
+}
+
+/* TAB */
+@media screen and (max-width: 767px){
+    .fix-cv {
+        margin-top: -18%;
+    }
+    
+}
+
+@media screen and (max-width: 667px){
+    .fix-cv {
+        margin-top: -21%;
+    }
+    .cv-header h4{
+        font-size: 0.8em;
+    }
+}
+
+/* MOB */
+@media screen and (max-width: 449px){
+    .query-fix{
+        width: 74%;
+    }
+    
+    .fix-cv{
+        margin-top: -51%;
+    }
+    
+    .cv-header h4{
+        font-size: 1em;
+    }
+    
+    .personal-info h4, 
+    .work-exp h4 {
+        margin-top: -22%;
+    }
+    
+    .carousel-control{
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (max-width: 450px){ 
+    .fix-cv{
+        margin-top: -41%;
+    }
+    
+}
+
+@media screen and (max-width: 380px){ 
+    .fix-cv{
+        margin-top: -50%;
+    }
+    
+}
+
+@media screen and (max-width: 320px){ 
+    .fix-cv{
+        margin-top: -55%;
+    }
+    .query-fix{
+        width: 71%;
+    }
+    .cv-header h4 {
+        font-size: 0.8em;
+    }
+    .personal-info h4, .work-exp h4 {
+        margin-top: -24%;
+    }
+    .personal-name {
+        font-size: 1.5em;
+    }
+    .personal-para {
+        font-size: 0.8em;
+    }
+    .personal-info h4, .work-exp h4 {
+        font-size: 1em;
+    }
+    .personal-subheader, .personal-subsubheader {
+        font-size: 0.8em;
+    }
+    .personal-paragraph{
+        font-size: 0.8em;
+    }
+}
+
+
+
+
+
